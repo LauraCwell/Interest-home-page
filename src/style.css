@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap");
+body {
+  background: #74070e;
+}
+h1 {
+  text-align: center;
+  color: #74070e;
+  font-size: 52px;
+  font-family: "Playwrite DK Loopet", cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Playwrite DK Loopet", cursive;
+  color: #74070e;
+  font-size: 28px;
+}
+p {
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+footer {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #f4e3b2;
+}
+.container {
+  max-width: 700px;
+  background: #f4e3b2;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 15px;
+}
+.themeButton {
+  display: block;
+  margin: 15px auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 14px;
+  background: #310e10;
+  color: #947268;
+  font-weight: bold;
+}
+.themeButton:hover {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  color: #310e10;
+  background: #947268;
+}
+.buyButton {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  background: #45462a;
+  color: #f4e3b2;
+}
+.buyButton:hover {
+  background: #f4e3b2;
+  color: #45462a;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.book-intro-picture {
+  border-radius: 5px;
+  transition: transform 800ms ease-in-out;
+  width: 700px;
+  height: 500px;
+}
+.book-intro-picture:hover {
+  filter: sepia(50%);
+  transform: scale(1.1);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 20px auto;
+}
+.grid img {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #45462a;
+  transition: all 500ms ease-in-out;
+}
+.grid img:hover {
+  transform: scale(2);
+}
+.dark {
+  background-color: #310e10;
+  color: black;
+}
+.dark .container {
+  background-color: #947268;
+}
+.dark h1 {
+  color: black;
+}
+.dark h2 {
+  color: black;
+}
